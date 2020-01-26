@@ -123,7 +123,10 @@ PRODUCT_COPY_FILES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    libdng_sdk.vendor \
+    android.hardware.camera.provider@2.4-impl \
+    android.hardware.camera.provider@2.4-service_64 \
+    libxml2 \
+    libdng_sdk.vendor
 
 PRODUCT_PACKAGES += \
     RaphaelPopupCamera
