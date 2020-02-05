@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2019 Paranoid Android
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Device specific settings -->
+    <string name="device_settings_app_name">PopupCamera Serivce</string>
+
+    <!-- Popup camera strings -->
+    <string name="popup_camera_tip">Attention</string>
+    <string name="popup_camera_takeback_falied_times_calibrate">Couldn\'t close front camera multiple times. Try calibrating the camera.</string>
+    <string name="popup_camera_popup_falied_times_calibrate">Couldn\'t open front camera multiple times. Try calibrating the camera.</string>
+    <string name="popup_camera_calibrate_running">Front camera cannot be used during calibration.</string>
+    <string name="popup_camera_calibrate_now">Calibrate</string>
+    <string name="popup_camera_calibrate_failed">Couldn\'t calibrate</string>
+    <string name="popup_camera_calibrate_success">Calibrated successfully. You can open the front camera now.</string>
+    <string name="stop_operate_camera_frequently">You\'re opening the front camera too frequently.</string>
+    <string name="takeback_camera_front_failed">Couldn\'t close front camera. Try again.</string>
+    <string name="popup_camera_front_failed">Couldn\'t open front camera. Try again.</string>
+
+</resources>
