@@ -223,6 +223,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.sensor.pickup=xiaomi.sensor.pickup \
     ro.sensor.proximity=true
 
+# Property to enable/disable PASR
+PRODUCT_PROPERTY_OVERRIDES += \
+    vendor.power.pasr.enabled=true
+
 # Perf
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.extension_library=libqti-perfd-client.so
