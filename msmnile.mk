@@ -321,9 +321,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += ParanoidDoze
 
 # Perf
--include vendor/qcom/common/av/qti-av.mk
--include vendor/qcom/common/bt/qti-bt.mk
--include vendor/qcom/common/perf/qti-perf.mk
+-include vendor/qcom/common/*/qti-*.mk
 
 # Power
 PRODUCT_PACKAGES += \
