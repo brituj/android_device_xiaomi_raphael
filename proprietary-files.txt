@@ -526,6 +526,10 @@ vendor/lib64/libllvm-glnext.so|dbbabb0b455a3ae7b31f4c60063f491595ee8dfe
 vendor/lib64/libllvm-qcom.so|ccaf5c49196fb4ea6b5329ecec79dd6252f1b988
 vendor/lib64/libOpenCL.so|d6bb350254707592d6f6360c06d4c3336f8f1155
 
+# HotwordEnrollment
+-product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk
+-product/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk
+
 # IP-CAM
 vendor/bin/ipacm
 vendor/bin/ipacm-diag
