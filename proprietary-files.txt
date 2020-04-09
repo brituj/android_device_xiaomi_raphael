@@ -18,6 +18,8 @@ vendor/lib/rfsa/adsp/libarcsoft_dualcam_refocus_skel.so
 vendor/lib/rfsa/adsp/libcamera_nn_skel.so
 vendor/lib/rfsa/adsp/libdirac-capiv2.so
 vendor/lib/rfsa/adsp/libdspCV_skel.so
+vendor/lib/rfsa/adsp/libfastcvadsp.so
+vendor/lib/rfsa/adsp/libfastcvdsp_skel.so
 vendor/lib/rfsa/adsp/libdsp_streamer_add_constant.so
 vendor/lib/rfsa/adsp/libdsp_streamer_binning.so
 vendor/lib/rfsa/adsp/libdsp_streamer_skel.so
@@ -540,6 +542,20 @@ vendor/lib64/libOpenCL.so|d6bb350254707592d6f6360c06d4c3336f8f1155
 -product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk
 -product/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk
 
+# IO-Prefetcher
+vendor/bin/hw/vendor.qti.hardware.iop@2.0-service
+vendor/etc/init/vendor.qti.hardware.iop@2.0-service.rc
+vendor/lib/hw/vendor.qti.hardware.iop@2.0-impl.so
+vendor/lib/libqti-iopd-client.so
+vendor/lib/libqti-iopd.so
+vendor/lib/vendor.qti.hardware.iop@1.0.so
+vendor/lib/vendor.qti.hardware.iop@2.0.so
+vendor/lib64/hw/vendor.qti.hardware.iop@2.0-impl.so
+vendor/lib64/libqti-iopd-client.so
+vendor/lib64/libqti-iopd.so
+vendor/lib64/vendor.qti.hardware.iop@1.0.so
+vendor/lib64/vendor.qti.hardware.iop@2.0.so
+
 # IP-CAM
 vendor/bin/ipacm
 vendor/bin/ipacm-diag
@@ -657,7 +673,9 @@ vendor/etc/init/vendor.qti.power.pasrmanager@1.0-service.rc|b34c1b9179c89cd47adc
 vendor/lib64/hw/vendor.qti.power.pasrmanager@1.0-impl.so|1ff8bc4c4cbc7be7fdda530fd1c8395aa2ef679d
 
 # Perf
+vendor/bin/hw/vendor.qti.hardware.perf@2.0-service
 vendor/etc/msm_irqbalance.conf
+vendor/etc/init/vendor.qti.hardware.perf@2.0-service.rc
 vendor/etc/lm/AdaptLaunchFeature.xml
 vendor/etc/lm/AppClassifierFeature.xml
 vendor/etc/lm/GameOptimizationFeature.xml
@@ -666,9 +684,22 @@ vendor/etc/perf/perfconfigstore.xml
 vendor/etc/perf/targetconfig.xml
 vendor/etc/perf/targetresourceconfigs.xml
 vendor/etc/perf/thermalboost.conf
+vendor/lib/vendor.qti.hardware.perf@2.0.so
+vendor/lib64/vendor.qti.hardware.perf@2.0.so
 
 # Perf - from LA.UM.8.1.r1-14300-sm8150.0
+vendor/bin/msm_irqbalance|0e967f5c7eaf8d863a50996459101be47adf96a2
 vendor/etc/perf/perfboostsconfig.xml|93e57b38e327bfbc174e925d639745e66949229b
+vendor/lib/libperfgluelayer.so|dad079097e6db49514e1e31636b63da6a89da5fd
+vendor/lib/libqti-perfd-client.so|c29e14a9c0c7e330dda3b7453d0cb242944c4c38
+vendor/lib/libqti-perfd.so|b7f3d0adcaa7036c27d10c53b0454f37d4b56268
+vendor/lib/libqti-util.so|72cc63fd039cf4aa7c6b62f53a1f2e4bada05f42
+vendor/lib64/liblearningmodule.so|fb4c9e97e5b1f50babc83318815d5e251afa140b
+vendor/lib64/libmeters.so|09f178dee1aa074f12fac5c502a7a6436ce93716
+vendor/lib64/libperfgluelayer.so|4c95e08abc1cef5b39db06579d8f9faceb8f23d4
+vendor/lib64/libqti-perfd-client.so|0c2b82b5e5df6e0efb03ace4a259eb63487dd2b6
+vendor/lib64/libqti-perfd.so|7a6c75d2ec8ba7ed6bf17ef048c3c79a1a2daf53
+vendor/lib64/libqti-util.so|45a80be449435d277f09cc59e4a315fa86072c41
 
 # Peripheral
 vendor/bin/pm-proxy
@@ -950,6 +981,7 @@ vendor/lib64/libmmparser_lite_proprietary.so
 # WiFi Display - HDCP
 vendor/bin/wfdhdcphalservice
 vendor/etc/init/android.hardware.drm@1.1-service.wfdhdcp.rc
+vendor/lib/libdisplayconfig.so
 vendor/lib/libhdcp1prov.so
 vendor/lib/libhdcp2p2prov.so
 vendor/lib/libhdcpsrm.so
@@ -957,6 +989,7 @@ vendor/lib/libmm-hdcpmgr.so
 vendor/lib/libwfdhdcpcp.so
 vendor/lib/libwfdhdcpservice_proprietary.so
 vendor/lib/libwfdmodulehdcpsession.so
+vendor/lib64/libdisplayconfig.so
 vendor/lib64/libhdcp1prov.so
 vendor/lib64/libhdcp2p2prov.so
 vendor/lib64/libhdcpsrm.so
