@@ -320,9 +320,6 @@ PRODUCT_PACKAGES += \
 # Paranoid Doze
 PRODUCT_PACKAGES += ParanoidDoze
 
-# Perf
--include vendor/qcom/common/*/qti-*.mk
-
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power@1.2-service
@@ -335,6 +332,14 @@ PRODUCT_PACKAGES += \
 # QCOM
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/permissions/product_privapp-permissions-qti.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/product_privapp-permissions-qti.xml
+
+# QTI common
+TARGET_COMMON_QTI_COMPONENTS := \
+    av \
+    bt \
+    perf \
+    telephony \
+    wfd
 
 # RCS
 PRODUCT_PACKAGES += \
