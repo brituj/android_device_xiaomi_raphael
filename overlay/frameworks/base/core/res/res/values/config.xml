@@ -1064,8 +1064,7 @@
     <bool name="config_ignoreRssnrSignalLevel">true</bool>
 
     <!-- Radius of the software rounded corners. -->
-    <dimen name="rounded_corner_radius_top">87px</dimen>
-    <dimen name="rounded_corner_radius_bottom">87px</dimen>
+    <dimen name="rounded_corner_radius">103px</dimen>
 
     <!-- The name of the package that will hold the assistant role by default. -->
     <string name="config_defaultAssistant" translatable="false">com.google.android.googlequicksearchbox</string>
