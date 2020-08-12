@@ -1,0 +1,4 @@
+r_dir_file(rfs_access, mnt_vendor_file);
+r_dir_file(rfs_access, persist_audio_file);
+
+allow rfs_access self:capability sys_admin;

@@ -1,0 +1,2 @@
+r_dir_file(qrtr, mnt_vendor_file);
+r_dir_file(qrtr, persist_audio_file);

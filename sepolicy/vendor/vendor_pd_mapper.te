@@ -1,0 +1,2 @@
+r_dir_file(vendor_pd_mapper, mnt_vendor_file);
+r_dir_file(vendor_pd_mapper, persist_audio_file);

@@ -1,2 +1,4 @@
 r_dir_file(msm_irqbalanced, mnt_vendor_file);
 r_dir_file(msm_irqbalanced, persist_audio_file);
+
+allow msm_irqbalanced self:capability sys_admin;

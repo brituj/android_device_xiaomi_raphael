@@ -1,0 +1,4 @@
+r_dir_file(rmt_storage, mnt_vendor_file);
+r_dir_file(rmt_storage, persist_audio_file);
+
+allow rmt_storage self:capability sys_admin;

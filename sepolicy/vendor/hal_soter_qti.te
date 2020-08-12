@@ -1,0 +1,2 @@
+r_dir_file(hal_soter_qti, mnt_vendor_file);
+r_dir_file(hal_soter_qti, persist_audio_file);

@@ -1,0 +1,2 @@
+r_dir_file(vendor_cvp, mnt_vendor_file);
+r_dir_file(vendor_cvp, persist_audio_file);

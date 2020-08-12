@@ -1,0 +1,4 @@
+r_dir_file(thermal-engine, mnt_vendor_file);
+r_dir_file(thermal-engine, persist_audio_file);
+
+allow thermal-engine self:capability sys_admin;

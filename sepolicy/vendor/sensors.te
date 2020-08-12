@@ -1,4 +1,6 @@
 r_dir_file(sensors, sysfs_graphics)
+r_dir_file(sensors, mnt_vendor_file);
+r_dir_file(sensors, persist_audio_file);
 
 allow sensors diag_device:chr_file { read write open ioctl };
 allow sensors sysfs_graphics:dir { search };

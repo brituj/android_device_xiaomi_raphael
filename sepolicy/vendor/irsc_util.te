@@ -1,0 +1,4 @@
+r_dir_file(irsc_util, mnt_vendor_file);
+r_dir_file(irsc_util, persist_audio_file);
+
+allow irsc_util self:capability sys_admin;

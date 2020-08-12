@@ -7,3 +7,5 @@ allow hal_perf_default vendor_data_file:file create_file_perms;
 allow hal_perf_default sysfs_thermal:file w_file_perms;
 allow hal_perf_default system_server:dir { read search open };
 allow hal_perf_default system_server:file { read getattr open };
+
+allow hal_perf_default self:capability sys_admin;
