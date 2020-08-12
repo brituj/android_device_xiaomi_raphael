@@ -28,5 +28,6 @@ cc_binary {
         "libhwbinder",
         "liblog",
         "libutils",
+        "vendor.xiaomi.hardware.motor@1.0",
     ],
 }

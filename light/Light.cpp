@@ -34,6 +34,9 @@
 #define MAX_LED_BRIGHTNESS    255
 #define MAX_LCD_BRIGHTNESS    2047
 
+// Motor status
+#define MOTOR_STATUS_TAKEBACK_OK    13
+
 namespace {
 /*
  * Write value to path and close file.
@@ -92,10 +95,16 @@ static void handleBacklight(const LightState& state) {
 }
 
 static void handleNotification(const LightState& state) {
-    uint32_t greenBrightness = getScaledBrightness(state, MAX_LED_BRIGHTNESS);
+    int status = IMotor::getService()->getMotorStatus();
+    if (status != MOTOR_STATUS_TAKEBACK_OK) {
+        // Don't light up when camera is up
+        return;
+    }
 
     /* Disable breathing or blinking */
     set(GREEN_LED BREATH, 0);
+
+    uint32_t greenBrightness = getScaledBrightness(state, MAX_LED_BRIGHTNESS);
 
     switch (state.flashMode) {
         case Flash::HARDWARE:

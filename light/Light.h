@@ -17,6 +17,8 @@
 #ifndef ANDROID_HARDWARE_LIGHT_V2_0_LIGHT_H
 #define ANDROID_HARDWARE_LIGHT_V2_0_LIGHT_H
 
+#include <vendor/xiaomi/hardware/motor/1.0/IMotor.h>
+
 #include <android/hardware/light/2.0/ILight.h>
 #include <hardware/lights.h>
 #include <hidl/Status.h>
@@ -24,6 +26,7 @@
 #include <mutex>
 #include <vector>
 
+using ::android::sp;
 using ::android::hardware::Return;
 using ::android::hardware::Void;
 using ::android::hardware::light::V2_0::Flash;
@@ -31,6 +34,8 @@ using ::android::hardware::light::V2_0::ILight;
 using ::android::hardware::light::V2_0::LightState;
 using ::android::hardware::light::V2_0::Status;
 using ::android::hardware::light::V2_0::Type;
+
+using ::vendor::xiaomi::hardware::motor::V1_0::IMotor;
 
 typedef void (*LightStateHandler)(const LightState&);
 
