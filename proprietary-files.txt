@@ -219,6 +219,17 @@ vendor/etc/camera/sdm_ys_32p_120_21_5_perturb50.bin|1ca031d5f8eb0e6aa3eedf7df8d5
 vendor/etc/camera/vidhance_calibration|acfc92fdfda0401fbc8b1bd1500e92d02ab85c1e
 vendor/etc/camera/visidon_clearshot_params_algoup.xml|ee064b324f3e4369a2d081b774076d2b71f6246a
 vendor/etc/camera/watermark_font_2300_3199.dat|470c10429888b89966af5eb610b13b843a1a0248
+vendor/etc/init/android.hardware.camera.provider@2.4-service_64.rc|b86a7c163879a53fe403fde169342632536c2735
+vendor/lib/android.hardware.camera.provider@2.4-external.so|7bc2fc8176cde2d5c59f607da23248400d61cf3f
+vendor/lib/android.hardware.camera.provider@2.4-legacy.so|66e36a123af0bcaa693aeb0dc8a1edf385d6560b
+vendor/lib/camera.device@1.0-impl.so|e923826a223df4afedc3c3bcf9d647eb0ce96786
+vendor/lib/camera.device@3.2-impl.so|ab6fe942fdc2554410a01bbb2a804ddd57d72792
+vendor/lib/camera.device@3.3-impl.so|1fbf241f73eab4441ceb47234e45fcbdc46aefb5
+vendor/lib/camera.device@3.4-external-impl.so|da2d12f8b66efe1d7f26f920a2700b6f586809f5
+vendor/lib/camera.device@3.4-impl.so|a49b8d9442858cb7c561700ba2e62e47fcaa9b79
+vendor/lib/camera.device@3.5-external-impl.so|1dd7b0cfff402728b796f464d4f8613fa7df9789
+vendor/lib/camera.device@3.5-impl.so|90bec3e39cbd9c91d532c2542d99008599d65b5e
+vendor/lib/camera.device@3.6-external-impl.so|b432c08581d9a1cc7a1856f2421e81e193508c89
 vendor/lib/camera/com.qti.sensor.imx586_raphael.so|900a468a967ed26bbcf721c54140dc78a8fdbe1d
 vendor/lib/camera/com.qti.sensor.ov8856_raphael.so|cb169530136238186450caf7971cee3b30ef624b
 vendor/lib/camera/com.qti.sensor.s5k3l6_raphael.so|55f8723d4933b1a00d011277c58a5dbbc5965db4
@@ -279,6 +290,7 @@ vendor/lib/camera/fdconfigpreview.bin|f3dfb2db6955221919245f382dd6132d9b28c7ad
 vendor/lib/camera/fdconfigpreviewlite.bin|f3dfb2db6955221919245f382dd6132d9b28c7ad
 vendor/lib/camera/fdconfigvideo.bin|f3dfb2db6955221919245f382dd6132d9b28c7ad
 vendor/lib/camera/fdconfigvideolite.bin|f3dfb2db6955221919245f382dd6132d9b28c7ad
+vendor/lib/hw/android.hardware.camera.provider@2.4-impl.so|ab1e2b5d360836833de357fddf71cb5280edcfbd
 vendor/lib/hw/camera.qcom.so|496d3db438b3a2a104ce674ba46b1c8e2726585d
 vendor/lib/hw/com.qti.chi.override.so|94d0675a4e2417ea4be0b9efd37f0dbba1a95ac2
 vendor/lib/libFaceGrade.so|a1eecc9cbd069ea0574ea09a06a903d7873e162b
@@ -311,8 +323,19 @@ vendor/lib/libremosaic_daemon.so|c31a8cbaf8345f3cdcbe9c1a0c5fdcbed0615170
 vendor/lib/libsns_device_mode_stub.so|bd0a69f562df56b74ed4416320b7a344577b3666
 vendor/lib/libswregistrationalgo.so|f11b567b5947e008e5e808ec39fdc4b3fd0dc2db
 vendor/lib/libsysmon_cdsp_skel.so|ebefa806ce33f19b4f7975fb246966d6067f9c02
+vendor/lib/vendor.qti.hardware.camera.device@1.0.so|2e21d4dc8f06b6a78f9222ed00a7fa19eadaa91c
 vendor/lib/vendor.qti.hardware.camera.device@2.0.so|1f8f634218ea37ca13ef123cb696504be83eaca8
 vendor/lib/vendor.qti.hardware.camera.device@3.5.so|257e8369a938f229ce755f6de69a1f391bf6f550
+vendor/lib64/android.hardware.camera.provider@2.4-external.so|72adbe24694e85af2a0b93fdc099c166dc476e20
+vendor/lib64/android.hardware.camera.provider@2.4-legacy.so|3627dd07a9a762c165171a5b9aa67f331d89adf1
+vendor/lib64/camera.device@1.0-impl.so|bd1b7ccc5699ad75db1eb336016d0cac22a55968
+vendor/lib64/camera.device@3.2-impl.so|3e33449c09a28ef467bb713e83705959be7f6283
+vendor/lib64/camera.device@3.3-impl.so|a9e4f7f78272f7581eef053d5fe38e2e38ca322f
+vendor/lib64/camera.device@3.4-external-impl.so|69383a3153cc4b2b5ec23fcd5c0b7c76ad77832b
+vendor/lib64/camera.device@3.4-impl.so|a81eb617f764606302a76e3cee7cf62a1d276aea
+vendor/lib64/camera.device@3.5-external-impl.so|448f4271d6866cac3254bd07299641100a0bcec3
+vendor/lib64/camera.device@3.5-impl.so|295a48e71e3524c56b3de3b9f12eeca8cc78020b
+vendor/lib64/camera.device@3.6-external-impl.so|d4299119a81ce75ef09e843fd854501c571a4733
 vendor/lib64/camera/com.qti.sensor.imx586_raphael.so|597aea46e2707093559c9c3913bc5b4c35dcf9e4
 vendor/lib64/camera/com.qti.sensor.ov8856_raphael.so|eb55659d5dee6b20e9613deb5902e943022ee354
 vendor/lib64/camera/com.qti.sensor.s5k3l6_raphael.so|851acc9e33b7220179d4073c75c0af198e1a8b7c
@@ -399,7 +422,8 @@ vendor/lib64/camera/fdconfigpreview.bin|f3dfb2db6955221919245f382dd6132d9b28c7ad
 vendor/lib64/camera/fdconfigpreviewlite.bin|f3dfb2db6955221919245f382dd6132d9b28c7ad
 vendor/lib64/camera/fdconfigvideo.bin|f3dfb2db6955221919245f382dd6132d9b28c7ad
 vendor/lib64/camera/fdconfigvideolite.bin|f3dfb2db6955221919245f382dd6132d9b28c7ad
-vendor/lib64/hw/camera.qcom.so|458ccee362cbc59feffbc710c3ce99e964ad3c4e
+vendor/lib64/hw/android.hardware.camera.provider@2.4-impl.so|ef02d77e6a2c14fefbdf4093092a07061dc9ce9b
+vendor/lib64/hw/camera.qcom.so|d78c8a2ec41561987e4b7e9d15cff0349f2816d2
 vendor/lib64/hw/com.qti.chi.override.so|c50629be1f6e2bd87afe0c6cbdb93eb017de9f24
 vendor/lib64/libFaceGrade.so|b3f316c56ab78ec550e8248c8d3ae7ca720d009e
 vendor/lib64/libHalSuperSensorServer.so|faa4d602f226da8d92b197f49ffe29f0ad506426
@@ -462,6 +486,7 @@ vendor/lib64/libtriplecam_optical_zoom_control.so|4ed124cf96e346cc11d232bdfec069
 vendor/lib64/libtriplecam_video_optical_zoom.so|d06d62a3f9ad5c9330b52d55247f8d68369a6f43
 vendor/lib64/libvidhance.so|822252821acd4fc308d080e4d524ef37defd7ba1
 vendor/lib64/mibokeh_855_opencl.bin|d2e131b028a889330410bee00b63cfc3ea3f14e8
+vendor/lib64/vendor.qti.hardware.camera.device@1.0.so|543310393fa5170c481cd94f55ac65c6558d9202
 vendor/lib64/vendor.qti.hardware.camera.device@2.0.so|c22277198a5fdd7e4b7b057ef5068f7edbd3f817
 vendor/lib64/vendor.qti.hardware.camera.device@3.5.so|a054618c3750e90f8ac4a2d5d4069113ffcf7b53
 
