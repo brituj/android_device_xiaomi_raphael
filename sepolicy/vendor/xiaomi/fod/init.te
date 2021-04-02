@@ -1,0 +1,6 @@
+# Allow init to chown/chmod nodes in sysfs.
+allow init vendor_sysfs_fod:file {
+  open
+  read
+  setattr
+};

@@ -1,0 +1,3 @@
+# Wireless Charging Supply
+/sys/devices(/platform)?/soc/[a-f0-9]+.qcom,spmi/spmi-[0-9]/spmi0-0[0-9]/[a-f0-9]+.qcom,spmi:qcom,[a-z0-9]+@[0-9]:qcom,qpnp-smb[0-9]/power_supply/wireless(/.*)?    u:object_r:sysfs_wireless_supply:s0
+/sys/devices(/platform)?/soc/[a-f0-9]+.i2c/i2c-[0-9]+/[0-9]+-[a-f0-9]+/power_supply/(idt|nuvolta)(/.*)?                                                             u:object_r:sysfs_wireless_supply:s0

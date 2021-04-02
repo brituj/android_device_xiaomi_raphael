@@ -1,0 +1,1 @@
+allow system_server vendor_sysfs_fod:file rw_file_perms;

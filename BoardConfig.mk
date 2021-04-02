@@ -207,7 +207,7 @@ VENDOR_SECURITY_PATCH := 2021-03-01
 USE_SENSOR_MULTI_HAL := true
 
 # Sepolicy
-include device/xiaomi/raphael-sepolicy/raphael-sepolicy.mk
+include $(DEVICE_PATH)/sepolicy/sepolicy.mk
 
 # Vendor init
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_raphael
